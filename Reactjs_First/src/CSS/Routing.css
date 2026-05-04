@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body , Navbar{
+    background-color: #35333c;
+}
+
+.main_box{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
