@@ -7,15 +7,13 @@ const CounterProject = () => {
     }    
   return (
     <>
-     <div className='parent' style={{display:'flex',justifyContent:'center'}}>
-       <h1>{count}</h1>
-       <div>
-        <button  onClick={handlecount}>Click to count</button>
-       </div>
-     </div>
+      <div style={{fontSize: '165px', textAlign: 'center', marginTop: '20px'}}>
+        {count}
+      </div>
+      <button style={{display: 'block',margin: 'auto',padding: '6px 12px', cursor: 'pointer'}} onClick={handlecount}>Click Me</button>
 
     </>
   )
 }
 
-export default CounterProject
+export default CounterProject;
