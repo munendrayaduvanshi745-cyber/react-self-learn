@@ -7,11 +7,13 @@ import Pricing from "./Pages/Pricing";
 import Contact from "./Pages/Contact";
 import PageNotFound from "./Pages/PageNotFound";
 import UserDisplay from "./components/UserDisplay";
+import Couting from "./HOOKS/Couting";
+import CounterProject from "./HOOKS/CounterProject";
 
 function App() {
   return(
     <> 
-      <BrowserRouter>
+      {/* <BrowserRouter>
        <Navbar/>
        <div className="page_view">
         <div className="container">
@@ -22,15 +24,17 @@ function App() {
                <Route path='/contact' element={<Contact/>}/>
                <Route  path='team' element={<UserDisplay/>}/>
                <Route path='/*' element={<PageNotFound/>}/>
+               <Route path='state' element={<useState/>}/>
           </Routes>
         </div>
        </div>
-      </BrowserRouter>
+      </BrowserRouter>  */}
+      {/* <UserName/> */}
+      <CounterProject/>
 
     </>
   )
 }
-
 export default App;
 
 
@@ -190,7 +194,4 @@ export default App;
 // }
 
 // export default Head;
-
-
-
 
